@@ -24,6 +24,7 @@ let package = Package(
         .target(
             name: "RealmManager",
             dependencies: []),
+            path: "RealmManager/Source",
         .testTarget(
             name: "RealmManagerTests",
             dependencies: ["RealmManager"]),
