@@ -13,6 +13,7 @@ let package = Package(
         .library(
             name: "RealmManager",
             targets: ["RealmManager"]),
+            path: "RealmManager/Source",
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -24,7 +25,6 @@ let package = Package(
         .target(
             name: "RealmManager",
             dependencies: []),
-            path: "RealmManager/Source",
         .testTarget(
             name: "RealmManagerTests",
             dependencies: ["RealmManager"]),
