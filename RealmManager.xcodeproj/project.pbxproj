@@ -90,9 +90,7 @@
 		C5FA32DA2324F8A400CFC13A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C5FA32F32325056C00CFC13A /* Persistable */,
-				C5FA32F22325056000CFC13A /* RealmPath */,
-				C5FA32F12325053100CFC13A /* RealmDataManager */,
+				D5166F95244DC9090054C106 /* RealmManager */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -122,6 +120,16 @@
 				C5814D7C2449BD1D007E6F9D /* PersistableOnRealms.swift */,
 			);
 			path = Persistable;
+			sourceTree = "<group>";
+		};
+		D5166F95244DC9090054C106 /* RealmManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5FA32F32325056C00CFC13A /* Persistable */,
+				C5FA32F22325056000CFC13A /* RealmPath */,
+				C5FA32F12325053100CFC13A /* RealmDataManager */,
+			);
+			path = RealmManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
