@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				C5814D772449BBF8007E6F9D /* Example */,
-				C5FA32DA2324F8A400CFC13A /* Source */,
+				C5FA32DA2324F8A400CFC13A /* Sources */,
 				C506D3882324F374000B4209 /* RealmManager.h */,
 				C506D3892324F374000B4209 /* Info.plist */,
 			);
@@ -87,14 +87,14 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		C5FA32DA2324F8A400CFC13A /* Source */ = {
+		C5FA32DA2324F8A400CFC13A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				C5FA32F32325056C00CFC13A /* Persistable */,
 				C5FA32F22325056000CFC13A /* RealmPath */,
 				C5FA32F12325053100CFC13A /* RealmDataManager */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		C5FA32F12325053100CFC13A /* RealmDataManager */ = {
